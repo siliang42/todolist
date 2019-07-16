@@ -2,7 +2,7 @@ package cn.nonocast.controller;
 
 import cn.nonocast.admin.form.UserForm;
 import cn.nonocast.model.User;
-import cn.nonocast.service.*;
+import cn.nonocast.service.UserService;
 import cn.nonocast.social.Wechat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -114,5 +114,6 @@ public class UserController {
     public String registerResult(Model model) {
         return "user/register_result";
     }
+
 
 }
